@@ -26,7 +26,7 @@ const About = () => {
             {/* REPLACE: Add company/office/team photo to /public/about-img.jpg */}
             <div className="rounded-3xl overflow-hidden shadow-lg border border-neutral-border">
               <img
-                src="/About_US.jpeg"
+                src={`${import.meta.env.BASE_URL}About_US.jpeg`}
                 alt="Dexterous Power Solution team or office"
                 className="w-full h-full max-h-[420px] object-cover"
               />

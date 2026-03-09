@@ -10,12 +10,14 @@ const navLinks = [
 ];
 
 const Logo = () => {
+  const logoSrc = `${import.meta.env.BASE_URL}logo.jpeg`;
+
   return (
     <div className="flex items-center gap-2">
       {/* LOGO: Place your Dexterous Power Solution logo file as public/logo.jpeg */}
       <img
-        src="/logo.jpeg"
-        alt=""
+        src={logoSrc}
+        alt="Dexterous Power Solution logo"
         className="h-12 w-auto object-contain"
       />
     </div>
